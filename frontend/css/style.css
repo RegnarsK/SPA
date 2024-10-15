@@ -20,7 +20,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #575757;
 }
 
 /* Form title styling */
@@ -65,4 +65,18 @@ h1 {
 /* Hover effect for submit button */
 .container input[type="submit"]:hover {
     background-color: #45a049;
+}
+
+
+.container button{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
 }
